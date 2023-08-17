@@ -506,7 +506,73 @@ body {
   color: var(--white);
   margin-bottom: 16px;
 }
+.social-media-container {
+  margin-right: 80px;
+}
 
+/* Footer subscription form */
+.subscription-container {
+}
+
+.form-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.subscription-form {
+  display: flex;
+  gap: 24px;
+}
+
+.input-form {
+  margin: 0;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  background-color: transparent;
+  color: var(--white, #fff);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: 1px solid var(--white, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.input-form::placeholder {
+  color: var(--white);
+}
+.input-button {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  border: none;
+  background: var(--iris, #4d5ae5);
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-button:hover,
+.input-button:focus {
+  background-color: var(--ocean);
+}
+
+.submit-icon {
+  fill: var(--white);
+}
 /* Portfolio */
 
 .portfolio-section {
