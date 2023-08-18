@@ -709,6 +709,7 @@ img {
   display: block;
 }
 
+/* Modal window */
 .modal {
   position: fixed;
   top: 0;
@@ -772,4 +773,7 @@ img {
 .modal-button:hover .icon-modal,
 .modal-button:focus .icon-modal {
   fill: #ffffff;
+}
+
+.modal-form {
 }

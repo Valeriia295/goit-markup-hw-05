@@ -486,8 +486,53 @@
           </svg>
         </button>
 
+        <p>Leave your contacts and we will call you back</p>
         <form>
-          <p>Leave your contacts and we will call you back</p>
+          <label class="modal-form">
+            Name
+            <div>
+              <input class="modal-input" type="text" name="your_name" />
+              <svg class="modal-icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-Frame-three"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label class="modal-form">
+            Phone
+            <div>
+              <input class="modal-input" type="tel" name="your_phone_number" />
+            </div>
+          </label>
+
+          <label class="modal-form">
+            Email
+            <div>
+              <input class="modal-input" type="email" name="your_email" />
+            </div>
+          </label>
+
+          <label>
+            Comment
+            <div>
+              <textarea
+                name="comment"
+                rows="7"
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="term_and_conditions"
+              value="privacy_policy"
+              checked
+            />
+            I accept the terms and conditions of the
+            <span><a href="">Privacy Policy</a></span>
+          </label>
         </form>
       </div>
     </div>
