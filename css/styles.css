@@ -884,7 +884,7 @@ img {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.comment-input:checked {
+.comment-input:checked + .comment-label > .privacy-item {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
