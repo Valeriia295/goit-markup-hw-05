@@ -794,7 +794,7 @@ img {
   color: var(--lightslate, #8e8f99);
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.7;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   display: block;
   margin-bottom: 4px;
@@ -813,6 +813,11 @@ img {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04px;
 }
 
 .modal-input:focus {
@@ -857,10 +862,6 @@ img {
   border-color: var(--iris);
 }
 
-.checkbox-container {
-  margin-bottom: 24px;
-}
-
 .comment-label {
   display: block;
   color: var(--lightslate, #8e8f99);
@@ -868,6 +869,7 @@ img {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  margin-bottom: 24px;
 }
 
 .privacy-item {
@@ -882,6 +884,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
 }
 
 .comment-input:checked + .comment-label > .privacy-item {
@@ -891,5 +894,37 @@ img {
 }
 
 .privacy-link {
-  color: var(--iris);
+  color: var(--iris, #4d5ae5);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
+
+.btn {
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  display: block;
+  cursor: pointer;
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--ocean);
+  border: none;
 }
